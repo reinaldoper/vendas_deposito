@@ -1,0 +1,93 @@
+body {
+    background-color: lightslategrey;
+}
+
+nav .div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+nav .navbar {
+    background-color: lime;
+}
+
+#area {
+    position: relative;
+    left: 37%;
+    top: 29%;
+    width: 320px;
+    height: 270px;
+}
+
+#area #formulario {
+    position: absolute;
+    display: block;
+}
+
+fieldset {
+    width: 300px;
+    height: 250px;
+    color: mistyrose;
+}
+
+legend {
+    font-style: bold;
+    font-family: “Segoe UI”, ”Arial”, ”Times New Roman”;
+}
+
+#footer .card-footer {
+    position: absolute;
+    left: 5%;
+    top: 60%;
+    width: 1300px;
+    height: 100px;
+    text-align: center;
+}
+
+small {
+    color: seashell;
+}
+
+p {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    text-align: center;
+}
+
+li {
+    position: relative;
+    left: 10%;
+    color: seashell;
+}
+
+#myTable {
+    position: relative;
+    width: 80%;
+    border: 10px solid #ddd;
+    font-size: 18px;
+    left: 10%;
+}
+
+#myTable th,
+#myTable td {
+    text-align: left;
+    padding: 12px;
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.pagination {
+    position: relative;
+    width: 20%;
+    font-size: 18px;
+    left: 41%;
+}
